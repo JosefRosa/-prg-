@@ -4,7 +4,7 @@
 int main()
 {
     int den, mes, rok;
-    int rc = 500114; //jsem stačí zadat vaše datum narození a když pak kliknete na spustit tak se vám vypíše
+    int rc = 500114; //jsem stačí zadat váš datum narození a když pak kliknete na spustit tak se vám vypíše
     rok = rc / 10000;
     mes = (rc / 100) - (rok * 100);
     mes = rc / 100 % 100;
