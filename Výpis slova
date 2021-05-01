@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+void println(char * addr, int strlen)
+{
+for (int i = 0; i < strlen; i++)
+{
+    printf("%c", *(addr + i));
+}
+
+}
+int main()
+{
+    char text[] = {'A','h','o','j'};
+    int cnt = sizeof(text);
+
+    println(text, cnt);
+    return 0;
+
+}
